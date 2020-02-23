@@ -7,7 +7,7 @@ for i in range(1, 4):
 
     # [0, 0, 0], [255, 255, 200] – Putih
     lower_api0 = np.array([0, 0, 0])
-    upper_api0 = np.array([255, 255, 200])
+    upper_api0 = np.array([0, 0, 255])
     mask1 = cv2.inRange(hsv, lower_api0, upper_api0)
 
     mask = mask1

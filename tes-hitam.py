@@ -14,8 +14,7 @@ for i in range(1, 4):
 
     new_img = cv2.bitwise_and(img, img, mask=mask)
 
-    cv2.imshow("hasil"+str(i)+".png", new_img)
-    # cv2.imshow('mask',mask)
+    cv2.imshow('mask', mask)
     cv2.imshow('image', img)
 
     # menunggu tombol key ditekan

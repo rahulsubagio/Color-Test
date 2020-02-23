@@ -1,4 +1,3 @@
-# jika ingin dicoba dengan file png yang berbeda maka ubah Asset0 menjadi sesuai dgn nama file png dan ubah range jika ingin mencoba lebih atau kurang dari 3 file png
 import cv2
 import numpy as np
 

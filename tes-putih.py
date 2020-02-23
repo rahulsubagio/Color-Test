@@ -6,6 +6,7 @@ for i in range(1, 4):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
     # [0, 0, 0], [255, 255, 200] – Putih
+    # 
     lower_api0 = np.array([0, 0, 0])
     upper_api0 = np.array([0, 0, 255])
     mask1 = cv2.inRange(hsv, lower_api0, upper_api0)
